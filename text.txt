@@ -1,0 +1,223 @@
+Q1. What is HTML and why is it used?
+ans: html stands for hyper text markup language
+     html is used to buid a actual structure of the web page which is further styled using css
+
+Q2. Explain the structure of an HTML document
+ans:
+<!DOCKTYPE html>
+<html>
+<head>
+</head>
+<body>
+</body>
+</html>
+
+<!DOCKTYPE html> : this defines document type is html
+<html> html is a root element of the webpage
+<head> it contains all the metdata, links, scripts, and other data which is not directly visible to browser
+<body> it contains all the data which is directly displayed in the browser
+
+Q3. What is the difference between <div> and <span>?
+ans:
+<div> : div tag is block level elment it is used to group the content div tag is like a container it does not have a semantic meaning
+<span> : span tag is a inline element which appears on the same line and take as much space needed
+
+Q4. What is the purpose of the <!DOCTYPE html> declaration?
+ans : <!DOCTYPE html> we define this in the top of html structure it defines that the document type of the web page is html
+
+Q5. What are semantic HTML tags? Give examples.
+ans : semantic tags in html shows meaning and structure, it improves the readabiltity, formatting, and makes it cleaner
+<header> appears on the top section of web page
+<nav> contains the navigation links
+<main> contains the main data of the web page (one per page)
+<side> contains side ads and urls
+<section> contains the realted content
+<article> independent content (news, blogs)
+<footer> bottom section of the web page contains links contact
+
+Q6.Explain the difference between HTML tags and HTML attributes.
+ans :
+html tags used to build the structure and content of the web page  like <body> <h1> <section>
+ex: <body>
+      <h1>This is our website</h1>
+    </body>
+
+html attributes that we use in the html tags for a reason like to style it format it style , height, width
+ex:
+    body>
+      <h1 style="color:red">This is our website</h1>
+    </body>
+
+Q7. What is the purpose of the <head> tag?
+ans: <head> tag in the html structure contains all the metadata, links, scripts, title and etc
+this head data is not directly visible to the browser or webpage
+
+Q8. What is the <meta> tag used for?
+<meta> tag in html helps in reposniveness of the web page for the mobile screen its is imp to define it on the top to avoid zoom in for the mobile screen
+
+Q9. What is the difference between <strong> and <b> tags?
+ans:
+<strong> this tag makes the text bold and mark it as a important or urgency it add a semantic meaning to the text
+<b> it also makes a text bold but does not add any semantic meaning just for styling
+
+Q10. What is the difference between ordered and unordered lists?
+ans:
+<ol> : order list is used to display items in a correct order it displayes items in order using numbers , roman numbers
+ex: 1 Tomato
+    2 Potato
+    3.carrot
+
+Q 11. What are block-level and inline elements?
+ans:
+block-level : this elements behave like a inline element but also we can adjust its height and width
+inline : inline elements does not comes on the new line they starts from the same line and take only as much space is needed
+
+Q12. What is the use of the <form> tag? Mention commonly used form input types.
+ans:
+<form> tag in html used to take the user data through various input feilds
+commonly used input types are:
+<input type="text/>
+<input type="email/>
+<input type="pasword"/>
+<input type="date"/>
+
+
+Q13. What are self-closing tags? Give examples.
+ans:
+as all of tags in html needs to be closed but self closing tags are there which dont needs to be closed they get self-closed
+ex: <br/>
+    <hr/>
+    <img/>
+    <input/>
+
+Q14. What is the purpose of the alt attribute in an <img> tag?
+ans:
+alt attribute in input is used to define the alternative text for the inut feild which get displayed when image does not get load or rendered so we will get to know for which the image is
+it also helps image reader and SEO
+
+Q15. Explain the difference between <link> and <script>.
+<link> link tag is used in head tag to link the other files like css and its can be icons, fonts to link with our html page
+<script> script tag is used to link javascript file with html page
+
+Q16. What is an iframe? How is it used?
+iframe tag is used to embeded the another html page in our html page
+
+Q17. What is the difference between id and class attributes?
+id: helps to give unique identifire for the html element it should be unique in entire page
+class: also helps to give unique identifire but it can also be used with other elemnents same name
+
+Q18. What is the use of the <table> tag? Name the table-related tags.
+<table> tag is used to display a table on the web page
+it has tags like <thead> <tbody> <tfooter>
+
+
+Q9. What are HTML entities? Give examples.
+
+entities in html are the tags and attributes that we use to build structure of the webpage
+ex: h1, p, style, height stc
+
+20. What is localStorage and sessionStorage in HTML5?
+
+localStorage remains even if we close the tab or page
+sessionStorage data get erased after the session ends
+
+
+
+
+CSS
+
+Q1. What is CSS and why do we use it?
+css stand for the casading style sheet is it is used to style the html strcture on the web page the way we want using various styles
+
+Q2. What are the three ways to apply CSS to a webpage?
+there are three types
+1. inline css we apply it directly on the tag
+      <h1 style="color:red">This is our website</h1>
+2. internal css we write it inside head tag using style tag
+3. external css we create a external file using .css extensiomn and link it with the html page
+
+
+Q3. What is the difference between class selector and id selector?
+both are unique identifiers
+id selector is used using #
+class selector is used using .
+
+Q4. What are CSS box model properties?
+css box model properties are
+    margin
+       border
+        padding
+          content
+
+Q5. Explain padding, margin, and border.
+paddind is the space which we add betwwen the actual content and the border
+margin is the space which we add outside the border
+border is the border line outside the content
+
+6. What is the difference between display: block, inline, and inline-block?
+display block is the default behaviour for the elment is shows the element
+display inline : make the element appear inline
+inline-block element appears on the same line but we can set height and width
+
+7. What is position property in CSS? Explain its types.
+postionb properties allows us to set the position of the element
+absolute: element relatives to its nearest positioned element or anchastor
+relative : element realtive to its orginal or normal position
+fixed: remaind fixed to viewport even if we scroll
+
+8. What is the difference between absolute and relative positioning
+absolute: elemnent position absolutr is relatives to its nearest positioned element or anchastor
+relative : element position relative is realtive to its orginal or normal position
+
+9. What is z-index in CSS?
+z-index is used to control overlapping elements higher element with higher z index appears on the top
+
+10. What are pseudo-classes? Give examples.
+pseudo-classes defines the special state of the elemnents
+ex: button:hover
+    button:focus
+    h1:first-child
+
+11. What are pseudo-elements? Give examples.
+pseudo-elements can get special state
+like this
+ex: button:hover
+    button:focus
+    h1:first-child
+
+12. What is the use of flexbox in CSS?
+flexbox is the used for 1 dimentional responsive layout system (rows and colums ) it helps in responsiveness
+
+13. What is CSS Grid?
+flexbox is the used for 2 dimentional responsive layout system (rows and colums ) it helps in responsiveness
+
+14. Explain media queries with example.
+media queries are the specific rules that gets added fo the specific conditoion
+it helps us to make web page responsive for multiple scrrens
+
+15. What is the difference between visibility: hidden and display: none?
+visibility none make and element invisible but still remains the layout and occuipes the space
+display none makes a element removed from the layout  and does not occuipes the space
+
+16. What is overflow in CSS?
+overflow is the when our content goes outside of parent height and width
+we can set it hidder scroll and etc
+
+
+17. What are CSS units? Difference between px, em, rem, %?
+css units are absolute and relative
+absolute remains fixed
+relative changes based on parent
+px and % is abslute unit
+em rem are relative units
+
+18. What is specificity in CSS?
+spcificity is the tag which defines the specificity of the element 
+
+19. What is the difference between transition and animation?
+transition allows us to add transition on the content when clicked or hover
+animation allows to add custom animation to the elements
+
+20. What is !important in CSS? When should it be used?
+!important makes a element non important means it does not get any importance
+it can be used to make an element less important
